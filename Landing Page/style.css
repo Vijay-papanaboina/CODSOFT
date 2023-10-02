@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    margin-left: 35px;
+    margin-right: 35px;
+    font-family: 'Open Sans', sans-serif;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding:15px 0px;
+    
+}
+
+.list{
+    list-style:none;
+
+}
+
+.li{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.btn{
+    padding:8px 10px;
+    background-color: red;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+  }
+
+.my{
+    display: flex;
+    font-weight: bold;
+    font-size: 35px;
+    color: rgb(51, 123, 223);
+}
+
+.m{
+    margin-top: 15px;
+}
+
+.fit{
+    font-weight: bold;
+    color:#e23333;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.fitt{
+    font-weight: bold;
+    color:rgb(41, 159, 188);
+    width: 50%;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.left{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.gym{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.cbum{
+    width: 450px;
+    border-radius: 30px;
+}
+
+.sec{
+    margin: 50px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.off{
+    color: red;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: bisque;
+    border-radius: 6px;
+
+}
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 2rem;
+    padding: 0px;
+  }
+
+  .pricing-plan {
+    flex: 1;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #eee5e5;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .plan-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .plan-price {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .plan-features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .plan-features li {
+    margin-bottom: 20px;
+  }
+
+  .plan-button {
+    padding: 10px;
+    background-color: #ff6600;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+  }
+
+  .my img{
+    width: 80px;
+    height: 80px;
+  }
+
+  .experience-details-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+  }
+
+  .article-container {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+  }
+
+  .about-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+
+  #projects {
+    position: relative;
+  }
+  
+  .color-container {
+    border-color: rgb(163, 163, 163);
+    background: rgb(250, 250, 250);
+  }
+
+  
+  .about-containers,
+  .about-details-container {
+    display: flex;
+  }
+  
+  .project-img {
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+  }
+  
+  .project-title {
+    margin: 1rem;
+    color: black;
+  }
+
+  footer {
+    height: 15vh;
+    margin: 0 1rem;
+  }
+  
+  footer p {
+    text-align: center;
+  }
+
+  .a{
+    text-decoration: none;
+  }
+
+  .b{
+    color: #fff;
+    text-decoration: none;
+    transition: all 300ms ease;
+  }
+
+  .btn:hover{
+    cursor:pointer;
+    background-color: rgb(174, 47, 47)
+    
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  #contact{
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .c{
+    margin: 10px;
+  }
+
+  .d{
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  
+
+  
+
+
