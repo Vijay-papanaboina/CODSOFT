@@ -9,8 +9,6 @@ body{
     margin-left: 35px;
     margin-right: 35px;
     font-family: 'Open Sans', sans-serif;
-    background:linear-gradient(to bottom,rgb(113, 165, 225),rgb(199, 77, 77),rgb(113, 165, 225))
-
 }
 .nav{
     display: flex;
